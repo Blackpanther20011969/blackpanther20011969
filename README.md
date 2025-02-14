@@ -8,9 +8,14 @@ Hallo!
 
 Ich bin Jovanka Schauder und befinde mich in der Umschulung zur Fachinformatikerin, die ich im Mai abschließen werde. Zuvor habe ich als IT-Systemkauffrau gearbeitet. Nach einer längeren Elternzeit habe ich mich intensiv weitergebildet und wertvolle Erfahrungen im Ehrenamt gesammelt.
 
-Als Teil des Teams für Öffentlichkeitsarbeit der Braunschweiger Friedenskirche gestalte ich den Webauftritt mit Typo3 und arbeite mich selbstständig in verschiedene Programme ein. Meine bevorzugte Programmiersprache ist Python, in der ich die Grundlagen beherrsche. Diese Zeit hat meine Problemlösungsfähigkeiten gestärkt und meine Fähigkeit zur selbstständigen Arbeit weiterentwickelt.
+Fähigkeiten:
 
-Meine Kernkompetenzen umfassen fundierte Problemlösungsfähigkeiten, die ich in verschiedenen Projekten erfolgreich angewendet habe. Ich habe Erfahrung in der Koordination von Teams sowie in der Planung und Durchführung von Aufgaben. Meine hohe Lernbereitschaft und die Fähigkeit, Herausforderungen konstruktiv anzugehen, zeichnen mich aus. Zudem engagiere ich mich ehrenamtlich in der Mentoren- und Webredaktion sowie in der Öffentlichkeitsarbeit.
+Typo3: Gestaltung und Pflege von Webauftritten
+Python: Grundlagen und erste Projekte
+Teamkoordination: Erfahrung in der Leitung und Organisation von Teams
+Problemlösung: Fundierte Fähigkeiten in der Analyse und Lösung komplexer Probleme
+
+Meine hohe Lernbereitschaft und die Fähigkeit, Herausforderungen konstruktiv anzugehen, zeichnen mich aus. Zudem engagiere ich mich ehrenamtlich in der Mentoren- und Webredaktion sowie in der Öffentlichkeitsarbeit.
 
 ## Projekte
 - Projekt 1: Portfolio erstellen 
