@@ -30,5 +30,6 @@ Die Artikel werden durch ein Pydantic-Modell validiert, das sicherstellt, dass d
   
 
 ## Kontakt
-Du kannst mich über LinkedIn oder GitHub erreichen.
+Du kannst mich über LinkedIn erreichen 
+
 https://www.linkedin.com/in/jovanka-schauder-38ab0025b/
