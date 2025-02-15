@@ -3,45 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jovanka Schauder - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mein Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Eigenes CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Navigation -->
     <header>
-        <h1>Jovanka Schauder</h1>
         <nav>
             <ul>
-                <li><a href="#about">Über mich</a></li>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#projects">Projekte</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>Über mich</h2>
-        <p>Hallo! Ich bin Jovanka Schauder und befinde mich in der Umschulung zur Fachinformatikerin, die ich im Mai abschließen werde. 
-           Zuvor habe ich als IT-Systemkauffrau gearbeitet. Nach einer längeren Elternzeit habe ich mich intensiv weitergebildet 
-           und wertvolle Erfahrungen im Ehrenamt gesammelt.</p>
-        <p>Ich habe Erfahrung mit Python und mit Typo3 als Redaktuer und liebe es, Probleme zu lösen.</p>
+    <!-- Hero-Bereich -->
+    <section id="hero">
+        <div class="hero-text">
+            <h1 data-aos="fade-down">Willkommen in meinem Portfolio</h1>
+            <p data-aos="fade-up">Design, Code & Kreativität</p>
+            <button data-aos="zoom-in">Mehr erfahren</button>
+        </div>
     </section>
 
+    <!-- Projekte -->
     <section id="projects">
-        <h2>Projekte</h2>
-        <div class="project">
-            <h3>Portfolio-Webseite</h3>
-            <p>Diese Webseite ist mein erstes GitHub Pages Projekt!</p>
+        <h2 data-aos="fade-up">Projekte</h2>
+
+        <div class="project" data-aos="fade-right">
+            <img src="img/projekt1.jpg" alt="Projekt 1" data-aos="zoom-in">
+            <div class="project-text">
+                <h3 data-aos="fade-left">Portfolio-Webseite</h3>
+                <p>Mein persönliches Portfolio mit HTML, CSS und GitHub Pages.</p>
+            </div>
         </div>
-        <div class="project">
-            <h3>FastAPI-Anwendung</h3>
-            <p>Ein API-Projekt mit FastAPI zur Verwaltung einer Artikelliste.</p>
+
+        <div class="project" data-aos="fade-left">
+            <img src="img/projekt2.jpg" alt="Projekt 2" data-aos="zoom-in">
+            <div class="project-text">
+                <h3 data-aos="fade-right">FastAPI-Projekt</h3>
+                <p>Eine einfache API mit FastAPI zur Verwaltung von Artikeln.</p>
+            </div>
         </div>
     </section>
 
+    <!-- Kontakt -->
     <section id="contact">
         <h2>Kontakt</h2>
-        <p>Du kannst mich über <a href="https://www.linkedin.com/in/jovanka-schauder-38ab0025b/">LinkedIn</a> 
-           oder <a href="https://github.com/Blackpanther20011969/blackpanther20011969.github.io.">GitHub</a> erreichen.</p>
+        <form>
+            <input type="text" placeholder="Dein Name" required>
+            <input type="email" placeholder="Deine E-Mail" required>
+            <textarea placeholder="Deine Nachricht" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
     </section>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, 
+            once: true 
+        });
+    </script>
+
 </body>
 </html>
